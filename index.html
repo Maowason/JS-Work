@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Team 3 Assignment 2</title>
+    </head>
+    <body>
+        <u><h1>Team 3 Assignment-2</h1></u>
+        <br>
+        <h3>Program 1</h3>
+        <p id="day"></p>
+        <p id="time"></p>
+
+        <br />
+        <h3>Program 2</h3>
+
+        <form>
+            1st Number: <input type="number" id="num_1" /> 2nd Number: <input type="number" id="num_2" />
+            <input type="button" onClick="multiply()" value="Multiply" />
+            <input type="button" onClick="divide()" value="Divide" />
+        </form>
+        <p>
+            The Result is : <br />
+            <span id="result"></span>
+        </p>
+
+        <br />
+
+        <h3>Program 3</h3>
+        <form>
+            Enter String: <input type="text" id="full_string" />
+            <input type="button" onClick="removeDuplicateCharacters(document.getElementById('full_string').value)" value="Remove Duplicate" />
+        </form>
+        <br />
+        <p>The String without duplicates is: <span id="not_full_string"></span></p>
+
+        <br />
+
+        <h3>Program 4</h3>
+        <form>Enter Array: <input type="button" onClick="array_stuff()" value="Calculate Plis..." /></form>
+        <br />
+        <p>The Calculations are: <span id="array_ans"></span></p>
+
+        <br />
+
+        <h3>Program 5</h3>
+        <form>Enter String: <input type="button" onClick="subset()" value="Find Subsets" /></form>
+        <br />
+        <p>The Subsets are: <span id="subset_ans"></span></p>
+
+        <script src="script.js"></script>
+    </body>
+</html>
